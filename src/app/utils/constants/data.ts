@@ -3,7 +3,7 @@ import tradingImg from '../images/roommatetinder.png';
 import genAIJudgeImg from '../images/speaksphere.png';
 import commutePalImg from '../images/queryfuel.png';
 import fraudDetectionImg from '../images/queryfuel.png';
-import intuit from '../images/intuit.png'
+import intuit from '../images/intuit.jpeg'
 import hpe from '../images/hpe.png'
 import columbia from '../images/columbia.jpeg'
 import covi from '../images/covi.png'
@@ -11,7 +11,7 @@ import tseries from '../images/tseries.png'
 import adobe from '../images/adobe.png'
 
 export const introData = {
-  introLine: `Hi, I'm Devdatt Golwala. Passionate about Data Science, AI and Software Engineering.📍`,
+  introLine: `Hi, I'm Devdatt Golwala. Currently pursuing my M.S. in Data Science at Columbia University, I'm passionate about Data Science, AI and Software Engineering.\nNew York, NY`,
   gitHubLink: 'https://github.com/devdatt9129',
   linkedInLink: 'https://www.linkedin.com/in/devdattgolwala/',
   sequence: [
@@ -27,7 +27,7 @@ export const introData = {
 
 export const aboutData = {
   aboutLine: 'An AI Engineer designing personalized, scalable systems that bridge data and product.',
-  aboutDescription: `Hey there! I’m Devdatt, a technologist passionate about building personalized, scalable systems at the intersection of machine learning and software engineering.`,
+  aboutDescription: `Specialized in leveraging Machine Learning, AI and software engineering to solve complex challenges. Experienced across Finance, Healthcare and Enterprise AI with impactful roles at Intuit, Adobe and HPE`
 };
 
 export const experienceData = [

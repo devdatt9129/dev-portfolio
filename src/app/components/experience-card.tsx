@@ -24,8 +24,12 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
     width={['Intuit', 'Adobe'].includes(companyName) ? 80 : 60}   // Intuit & Adobe are larger
     height={['Intuit', 'Adobe'].includes(companyName) ? 80 : 60}
     className={`object-contain ${
-      ['Intuit', 'Adobe'].includes(companyName) ? 'mt-1' : ''
-    }`}
+    companyName === 'Adobe' 
+      ? 'p-1 mt-1'                 // padding only for Adobe
+      : ['Intuit'].includes(companyName) 
+        ? 'mt-1'                   // margin for Intuit
+        : ''
+  }`}
     />
         )}
         {timeline}

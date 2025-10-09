@@ -24,7 +24,7 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <h2 className="text-md md:text-lg pb-5 pt-3 font-medium text-gray-600 lg:pr-20 hero-subtitle">
+          <h2 className="text-md md:text-lg pb-5 pt-3 font-medium text-gray-600 lg:pr-20 hero-subtitle whitespace-pre-line">
             {introData.introLine}
           </h2>
           <div className="flex justify-center lg:justify-start items-center text-gray-800">

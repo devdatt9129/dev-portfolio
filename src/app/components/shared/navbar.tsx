@@ -114,7 +114,7 @@ const Navbar = () => {
           Projects
         </Link>
         <Link
-          href="https://drive.google.com/file/d/1AbCDEfgHIJKlmnOPqrstuVWxyz/view?usp=sharing"
+          href="https://drive.google.com/file/d/1-O45W7qFgJ7ycNsY0Aiczu10ggEW5AXn/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="font-bold hover:text-blue cursor-pointer"

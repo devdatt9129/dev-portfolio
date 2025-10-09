@@ -7,10 +7,10 @@ const Projects = () => {
     <div id="projects" className="bg-gray-50 py-10 px-5">
       <div className="lg:pl-52 text-center lg:text-left">
         <h1 className="uppercase font-bold pb-5 text-lg md:text-xl text-blue-500">
-          Portfolio
+          Projects
         </h1>
         <h2 className="font-semibold text-xl md:text-2xl">
-          Each project is a unique piece of development 🧩
+          Independent projects pursued to learn and apply advanced AI and ML concepts 🧩
         </h2>
       </div>
       <div className="w-full lg:w-3/4 mx-auto py-5">
