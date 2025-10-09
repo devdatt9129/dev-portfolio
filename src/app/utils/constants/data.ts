@@ -17,16 +17,16 @@ export const introData = {
   sequence: [
     '👨‍💻 Data Scientist',
     2000,
-    '👨‍💻 AI Researcher',
+    '👨‍💻 AI Engineer',
     2000,
-    '👨‍💻 Software Engineer',
+    '👨‍💻 Software Developer',
     2000,
   ],
   gitHubUsername: 'devdatt9129',
 };
 
 export const aboutData = {
-  aboutLine: 'An AI Engineer designing personalized, scalable systems that bridge data and product.',
+  aboutLine: 'An AI engineer designing personalized, scalable systems that bridge data and product.',
   aboutDescription: `Specialized in leveraging Machine Learning, AI and software engineering to solve complex challenges. Experienced across Finance, Healthcare and Enterprise AI with impactful roles at Intuit, Adobe and HPE`
 };
 
