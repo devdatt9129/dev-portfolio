@@ -9,6 +9,7 @@ import columbia from '../images/columbia.jpeg'
 import covi from '../images/covi.png'
 import tseries from '../images/tseries.png'
 import adobe from '../images/adobe.png'
+import jio from '../images/jio.png'
 
 export const introData = {
   introLine: `Hi, I'm Devdatt Golwala. Currently pursuing my M.S. in Data Science at Columbia University, I'm passionate about Data Science, AI and Software Engineering.\nNew York, NY`,
@@ -77,7 +78,7 @@ export const experienceData = [
     timeline: 'Jun 2022 – Aug 2022, Mumbai, IN',
     companyName: 'Reliance Jio',
     role: 'Data Science Intern',
-    logo: columbia,
+    logo: jio,
     description: [
       'Performed exception reporting of network performance KPIs for 12M+ international roaming subscribers, flagging deviations above 10%.',
       'Optimized event creation cycles from 45 to 15 minutes via Spark jobs, cutting reporting time by 67%.',
