@@ -80,7 +80,7 @@ const Navbar = () => {
               Projects
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1-O45W7qFgJ7ycNsY0Aiczu10ggEW5AXn/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_9ib1wcf6a_HxR0N8ac8mGoOdt-5uuIX/view?usp=sharing"
               className="font-bold hover:text-blue cursor-pointer"
               onClick={closeMobileMenu}>
               Resume
@@ -114,7 +114,7 @@ const Navbar = () => {
           Projects
         </Link>
         <a
-  href="https://drive.google.com/file/d/1-O45W7qFgJ7ycNsY0Aiczu10ggEW5AXn/view?usp=sharing"
+  href="https://drive.google.com/file/d/1_9ib1wcf6a_HxR0N8ac8mGoOdt-5uuIX/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="font-bold hover:text-blue cursor-pointer"
