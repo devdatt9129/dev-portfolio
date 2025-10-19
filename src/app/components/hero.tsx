@@ -6,7 +6,7 @@ import man from '../utils/images/man.jpg';
 import Image from 'next/image';
 import { techStack } from '../utils/constants/hero.const';
 import { Tilt } from 'react-tilt';
-import GitHubCalendar from 'react-github-calendar';
+import { HiOutlineDocumentText } from 'react-icons/hi'; 
 import { TypeAnimation } from 'react-type-animation';
 import { introData } from '../utils/constants/data';
 
@@ -41,6 +41,14 @@ const Hero = () => {
               <FiGithub />
             </a>
           </div>
+          <div className="mt-4">
+    <a
+      href="https://drive.google.com/file/d/1_9ib1wcf6a_HxR0N8ac8mGoOdt-5uuIX/view?usp=sharing"
+      target="_blank"
+      className="px-5 py-2 border border-gray-300 rounded-md text-sm font-semibold hover:bg-gray-100 transition-colors">
+      Resume
+    </a>
+  </div>
         </div>
         <figure className="mt-10 lg:mt-0 lg:pr-32">
           <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }}>
@@ -70,12 +78,6 @@ const Hero = () => {
               alt="tech"
             />
           ))}
-        </div>
-        <div className="w-full mx-auto flex justify-center text-center py-10">
-          <GitHubCalendar
-            colorScheme="light"
-            username={introData.gitHubUsername}
-          />
         </div>
       </div>
     </div>

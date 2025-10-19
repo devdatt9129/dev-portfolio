@@ -1,6 +1,8 @@
 import React from 'react';
 import { ProjectCard } from '.';
 import { projectData } from '../utils/constants/data';
+import GitHubCalendar from 'react-github-calendar';
+import { introData } from '../utils/constants/data';
 
 const Projects = () => {
   return (
@@ -33,6 +35,12 @@ const Projects = () => {
           />
         ))}
       </div>
+      <div className="w-full mx-auto flex justify-center text-center py-10">
+          <GitHubCalendar
+            colorScheme="light"
+            username={introData.gitHubUsername}
+          />
+        </div>
     </div>
   );
 };
